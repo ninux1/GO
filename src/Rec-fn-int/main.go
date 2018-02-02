@@ -26,19 +26,17 @@ func main() {
 
 
 /*
-func (c *cylinder)change() float64{
-	c.len = 5.6
-	c.breadth = 6.6
-	c.height = 3.5
+func (c *cylinder)Area() float64{
+	//c.len = 5.6
+	//c.breadth = 6.6
+	//c.height = 3.5
 	return c.len * c.breadth * c.height
 }
 */
 
-
 func (c cylinder)Area() float64 {
 	return c.len * c.breadth * c.height
 }
-
 
 /*
 func Area(l float64, b float64, h float64) float64 {
